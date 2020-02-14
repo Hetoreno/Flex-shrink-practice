@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+
+body{
+    background: rgb(168, 165, 165);
+}
+
+.container{
+    border  : solid black 5px;
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.flex{
+    height: 12rem;
+flex: 1 1 20rem;
+/* In order for the flex shrink nmbers is , 'grow' , 'shrink' , 'basis' */   
+}
+
+.one{
+    background: rgb(168, 61, 61);
+}
+
+.two{
+    background: rgb(127, 158, 81);
+}
+
+.three{
+background: rgb(178, 34, 147);
+}
+
+.four{
+    background: rgb(124, 75, 173);
+}
+
+.five{
+    background:rgb(199, 199, 77);
+}
